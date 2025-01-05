@@ -22,7 +22,6 @@ nav{
     padding-bottom: 5px;
     padding-left: 20%;
     padding-right: 20%;
-    box-shadow: 200px 200px 1px rgb(0, 0, 0);
     text-align: center;
     font-family: "Source Code Pro", serif;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.527);
@@ -39,7 +38,6 @@ nav>ul{
 }
 li{
     list-style-type: none;
-    margin: 0 1% 0 1%;
 }
 nav>ul>li>a{
     border-right: solid;
