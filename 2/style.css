@@ -20,21 +20,17 @@ nav{
     background-color: var(--cor0);
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 20%;
-    padding-right: 20%;
     text-align: center;
     font-family: "Source Code Pro", serif;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.527);
-
 }
 nav>ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    margin: 0;
-    width: 100%;
-    
+    margin: auto;
+    max-width: 700px;
 }
 li{
     list-style-type: none;
@@ -42,7 +38,7 @@ li{
 nav>ul>li>a{
     border-right: solid;
     border-left: solid;
-    padding: 5px;
+    padding: 3px;
     border-width: 2px;
 }
 a{
@@ -67,8 +63,8 @@ header>div{
    background-attachment: fixed;
    background-position: center center;
    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 #intro > img{
     border-radius: 50%;
@@ -77,10 +73,11 @@ header>div{
 #complemento{
     background-color: var(--cor4);
     border-radius: 10px;
-    margin: 60px 10% 30px 10%;
+    margin: 60px auto 30px auto;
     padding: 20px 10% 20px 10%;
     font-size: 1.5em;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    max-width: 600px;
 }
 h1{
     padding-top: 100px;
@@ -112,11 +109,13 @@ div#complemento>ul{
 }
 p#gramado{
     text-align: right;
-    margin: 40px;
 }
 .projetos{
-    width: 80px;
-    margin-right: 70px;
+
+}
+footer{
+    font-size: 0.8em;
+    margin-left: 5%;
 }
 
 
