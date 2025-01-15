@@ -91,10 +91,16 @@ header>div{
 }
 #projetos{
     margin: 30px auto 0px auto;
-    padding: 20px 10% 20px 10%;
     font-size: 1.5em;
-    max-width: 600px;
-    background-image: url('');
+    height: 300px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    background-image: url('imagens/ceu1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 #conhecimentos{
     background-color: var(--cor4);
@@ -102,6 +108,7 @@ header>div{
     margin: 30px auto 0px auto;
     padding: 20px 10% 20px 10%;
     font-size: 1.5em;
+    text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
     max-width: 600px;
 }
