@@ -71,9 +71,35 @@ header>div{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
 }
 #complemento{
+    /*
     background-color: var(--cor4);
     border-radius: 10px;
     margin: 60px auto 30px auto;
+    padding: 20px 10% 20px 10%;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    max-width: 600px;*/
+}
+#sobremim{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
+    padding: 20px 10% 100px 10%;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    max-width: 600px;
+}
+#projetos{
+    margin: 30px auto 0px auto;
+    padding: 20px 10% 20px 10%;
+    font-size: 1.5em;
+    max-width: 600px;
+    background-image: url('');
+}
+#conhecimentos{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
     padding: 20px 10% 20px 10%;
     font-size: 1.5em;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
