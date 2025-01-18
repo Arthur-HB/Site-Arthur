@@ -72,14 +72,7 @@ header>div{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
 }
 #complemento{
-    /*
-    background-color: var(--cor4);
-    border-radius: 10px;
-    margin: 60px auto 30px auto;
-    padding: 20px 10% 20px 10%;
-    font-size: 1.5em;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
-    max-width: 600px;*/
+   
 }
 #sobremim{
     background-color: var(--cor4);
@@ -163,7 +156,8 @@ ul#linkimg>li{
 }
 iframe{
     display: block;
-    width: 50%;
+    width: 90%;
+    max-width: 1000px;
     aspect-ratio: 1/1;
     margin: 10px auto 0px auto;
     padding: 0px;
