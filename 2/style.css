@@ -57,11 +57,11 @@ header>div{
     color: var(--cor4);
 }
 #intro{
-   background-image: url('imagens/pinus2.jpg'); 
+   background-image: url('imagens/pinus.png'); 
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-position: center center;
+   background-position: center bottom;
    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.589);
    text-align: center;
     padding-top: 10%;
@@ -97,13 +97,13 @@ header>div{
     padding-top: 10%;
     padding-bottom: 10%;
     color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.589);
-    background-image: url('imagens/ceu1.png');
+    background-image: url('imagens/matria.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
 }
 #conhecimentos{
     background-color: var(--cor4);
@@ -142,6 +142,31 @@ h1{
 }
 div#complemento>ul{
     text-align: center;
+}
+div#Fotografias{
+    margin: 0px auto 0px auto;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+}
+ul#linkimg>li{
+    display: inline;
+}
+#linkimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 200px;
+}
+iframe{
+    display: block;
+    width: 50%;
+    aspect-ratio: 1/1;
+    margin: 10px auto 0px auto;
+    padding: 0px;
 }
 p#gramado{
     text-align: right;
