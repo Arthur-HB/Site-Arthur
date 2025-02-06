@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+:root{
+    --cor0: #09060C;
+    --cor1: #0A1123;
+    --cor2: #131929;
+    --cor3: #A9BFE4;
+    --cor4: #f5dcd1;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    background-color: var(--cor0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: "Source Code Pro", serif;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.527);
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+    margin: auto;
+    max-width: 1000px;
+    height: 3vh;
+}
+nav>ul>li{
+    flex: 1 1 100px;
+}
+li{
+    list-style-type: none;
+}
+nav>ul>li>a{
+    border-right: solid;
+    border-left: solid;
+    padding: 3px;
+    border-width: 2px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor3);
+}
+a:hover{
+    color: var(--cor4);
+    transition-duration: 0.3s;
+    font-size: 1.1em;
+}
+header>div{
+    padding: 20px;
+    background-color: var(--cor1);
+    font-family: "Source Code Pro", serif;
+    font-size: 2em;
+    color: var(--cor4);
+}
+#intro{
+   background-image: url('imagens/pinus.png'); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center bottom;
+   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.589);
+   padding: 30px 0px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+#imgart{
+    background-color: #0A1123;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
+}
+#intro > img{
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 5px rgb(0, 0, 0);
+    
+}
+#sobre{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 0px 5% 0px 5%;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+    max-width: 1000px;
+}
+.sobremim{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: auto;
+    text-indent: 30px;
+}
+#projetos{
+    margin: 30px auto 0px auto;
+    font-size: 1.5em;
+    height: 300px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.589);
+    background-image: url('imagens/matria.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#conhecimentos{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
+    padding: 0px 10% 20px 10%;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    max-width: 1000px;
+}
+h1{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#desenvolv{
+    margin-top: 100px;
+}
+#topicos{
+    font-size: 1.5em;
+    color: var(--cor4); 
+    background-color: var(--cor1);
+    border-radius: 10px;
+    margin: 20px;
+    padding:  60px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
+    font-family: "Source Code Pro", serif;
+}
+#topicos1{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+}
+#topicos>li{
+    
+}
+#complemento{
+    text-align: center;
+}
+div#Fotografias{
+    margin: 0px auto 0px auto;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+}
+ul#linkimg>li{
+    display: inline;
+}
+#linkimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 200px;
+}
+iframe{
+    display: block;
+    width: 90%;
+    max-width: 1000px;
+    aspect-ratio: 1/1;
+    margin: 10px auto 0px auto;
+    padding: 0px;
+}
+p#gramado{
+    text-align: right;
+    color: white;
+    max-width: 900px;
+    margin: 30px auto 0px auto;
+    padding: 0px;
+}
+footer{
+    font-size: 0.5em;
+    padding-left: 5%;
+}
+
+
