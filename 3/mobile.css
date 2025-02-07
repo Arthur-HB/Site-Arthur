@@ -33,7 +33,7 @@ a:hover{
     padding: 50px 30px;
 }
 #linkimg{
-    width: 500px;
+    width: 300px;
 }
 #linkimg>li{
     flex: 0 0 40px;
