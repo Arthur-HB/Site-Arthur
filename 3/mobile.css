@@ -31,3 +31,9 @@ a:hover{
 #sobre{
     text-align: center;
 }
+#linkimg{
+    width: 500px;
+}
+#linkimg>li{
+    flex: 0 0 40px;
+}
