@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
 :root{
     --cor0: #09060C;
     --cor1: #0A1123;
@@ -56,7 +58,7 @@ a:hover{
 nav>div{
     padding: 20px;
     background-color: var(--cor1);
-    font-family: "Source Code Pro", serif;
+    font-family: "Bad Script", serif;
     font-size: 2em;
     color: var(--cor4);
     text-align: left;
@@ -78,6 +80,9 @@ nav>div{
     align-self: center;
     border-radius: 50%;
     box-shadow: 0px 0px 10px rgb(0, 0, 0); 
+}
+#nomeart{
+    font-family: "Bad Script", serif;
 }
 #topicos{
     font-size: 1.5em;
