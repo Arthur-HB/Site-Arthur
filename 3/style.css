@@ -20,8 +20,6 @@ body{
 }
 nav{
     background-color: var(--cor0);
-    padding-top: 5px;
-    padding-bottom: 5px;
     text-align: center;
     font-family: "Source Code Pro", serif;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.527);
@@ -30,16 +28,21 @@ nav>ul{
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-
+    
     margin: auto;
     max-width: 1000px;
-    height: 3vh;
+    height: 5vh;
 }
 nav>ul>li{
     flex: 1 1 100px;
+    align-self: center;
 }
 li{
     list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor3);
 }
 nav>ul>li>a{
     border-right: solid;
@@ -47,21 +50,18 @@ nav>ul>li>a{
     padding: 3px;
     border-width: 2px;
 }
-a{
-    text-decoration: none;
-    color: var(--cor3);
-}
 a:hover{
     color: var(--cor4);
     transition-duration: 0.3s;
     font-size: 1.1em;
 }
-header>div{
+nav>div{
     padding: 20px;
     background-color: var(--cor1);
     font-family: "Source Code Pro", serif;
     font-size: 2em;
     color: var(--cor4);
+    text-align: left;
 }
 #intro{
    background-image: url('imagens/pinus.png'); 
@@ -70,70 +70,16 @@ header>div{
    background-attachment: fixed;
    background-position: center bottom;
    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.589);
-   padding: 30px 0px;
+   padding: 150px 10px;
    display: flex;
    flex-flow: row wrap;
    justify-content: center;
 }
-#imgart{
-    background-color: #0A1123;
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
-}
 #intro > img{
+    flex: 0 0 auto;
+    align-self: center;
     border-radius: 50%;
-    box-shadow: inset 0px 0px 5px rgb(0, 0, 0);
-    
-}
-#sobre{
-    background-color: var(--cor4);
-    border-radius: 10px;
-    margin: 30px auto;
-    padding: 0px 5% 0px 5%;
-    font-size: 1.5em;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
-    max-width: 1000px;
-}
-.sobremim{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    margin: auto;
-    text-indent: 30px;
-}
-#projetos{
-    margin: 30px auto 0px auto;
-    font-size: 1.5em;
-    height: 300px;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.589);
-    background-image: url('imagens/matria.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-}
-#conhecimentos{
-    background-color: var(--cor4);
-    border-radius: 10px;
-    margin: 30px auto 0px auto;
-    padding: 0px 10% 20px 10%;
-    font-size: 1.5em;
-    text-align: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
-    max-width: 1000px;
-}
-h1{
-    padding-top: 100px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-
-#desenvolv{
-    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0); 
 }
 #topicos{
     font-size: 1.5em;
@@ -153,37 +99,85 @@ h1{
     align-content: center;
     height: 100%;
 }
+#sobre{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    font-size: 1.2em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+    max-width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 60px auto;
+    padding: 50px;
+}
+#sobre>div>h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+#Fotografias{
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#Fotografias>h1{
+    text-align: center;
+}
+#Fotografias>img{
+    width: 90vw;
+    max-width: 850px;
+    margin: 10px;
+}
+#linkimg{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 300px;
+    height: 5vh;
+}
+#linkimg>li{
+    flex: 0 0 30px;
+}
+#linkimg>li:hover{
+    color: var(--cor4);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+/*
+#projetos{
+    margin: 30px auto;
+    font-size: 1.5em;
+    height: 300px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.589);
+    background-image: url('imagens/matria.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+*/
+#conhecimentos{
+    background-color: var(--cor4);
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
+    padding: 0px 10% 20px 10%;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    max-width: 900px;
+}
 #topicos>li{
     
 }
 #complemento{
     text-align: center;
-}
-div#Fotografias{
-    margin: 0px auto 0px auto;
-    font-size: 1.5em;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    color: white;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.493);
-}
-ul#linkimg>li{
-    display: inline;
-}
-#linkimg{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    max-width: 200px;
-}
-iframe{
-    display: block;
-    width: 90%;
-    max-width: 1000px;
-    aspect-ratio: 1/1;
-    margin: 10px auto 0px auto;
-    padding: 0px;
 }
 p#gramado{
     text-align: right;

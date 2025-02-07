@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    font-size: 0.8em;
+}
+nav>div{
+    padding: 10px;
+    font-size: 1.8em;
+}
+nav>ul>li>a{
+    border-right: none;
+    border-left: none;
+    font-size: 0.8em;
+}
+nav>ul>li{
+    flex: 1 1 30px;
+}
+a:hover{
+    font-size: 1em;
+}
+#intro{
+    padding: 30px 10px;
+}
+#intro>img{
+    
+}
+#topicos{
+    padding: 40px;
+    font-size: 1.3em;
+}
+#sobre{
+    text-align: center;
+}
