@@ -1,3 +1,25 @@
+
+function preloadImages() {
+    const images = [
+        'imagens/matria.png',
+        'imagens/copas.png',
+        'imagens/flor.png',
+        'imagens/fogueira.png',
+        'imagens/mar.png',
+        'imagens/pinus.png',
+        'imagens/poa.png'
+    ];
+
+    images.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+}
+
+window.onload = function() {
+    preloadImages();
+};
+
 function imgchange(n){
     var img = window.document.getElementById('imgfotografia')
     var escolha = window.document.querySelector('li.escolha')
